@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Иллюстрация: вложенные дуги, похожие на сосуд">
+<title>Иллюстрация: вложенные дуги, похожие на сосуд</title>
+<rect width="1200" height="800" fill="#FFF3E7"/>
+<filter id="g11" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="11"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1200" height="800" filter="url(#g11)" opacity="0.05"/>
+<path d="M180 640 A 420 420 0 0 1 1020 640" fill="none" stroke="#1B1613" stroke-opacity=".5" stroke-width="1.5"/>
+<path d="M270 640 A 330 330 0 0 1 930 640" fill="none" stroke="#1B1613" stroke-opacity=".3" stroke-width="1.5"/>
+<path d="M360 640 A 240 240 0 0 1 840 640" fill="none" stroke="#1B1613" stroke-opacity=".3" stroke-width="1.5"/>
+<path d="M450 640 A 150 150 0 0 1 750 640" fill="none" stroke="#1B1613" stroke-opacity=".3" stroke-width="1.5"/>
+<path d="M360 640 A 240 240 0 0 1 840 640" fill="#FF6B3D" opacity=".14"/>
+<path d="M534 640 A 66 66 0 0 1 666 640" fill="#FF6B3D"/>
+<path d="M180 640H1020" stroke="#1B1613" stroke-opacity=".3"/>
+<path d="M600 180V574" stroke="#1B1613" stroke-opacity=".14" stroke-dasharray="2 7"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640" role="img" aria-label="Схема: два счёта, перевод между ними и ноль комиссий за семь месяцев">
+<title>Схема: два счёта, перевод между ними и ноль комиссий за семь месяцев</title>
+<rect width="1600" height="640" fill="#FFF3E7"/>
+<filter id="g21" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="21"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1600" height="640" filter="url(#g21)" opacity="0.04"/>
+<circle cx="390" cy="250" r="168" fill="#FF6B3D"/>
+<circle cx="390" cy="250" r="232" fill="none" stroke="#1B1613" stroke-opacity=".14"/>
+<circle cx="1180" cy="250" r="232" fill="none" stroke="#1B1613" stroke-opacity=".34" stroke-width="1.5"/>
+<circle cx="1180" cy="250" r="168" fill="none" stroke="#1B1613" stroke-opacity=".16"/>
+<path d="M596 250H974" stroke="#1B1613" stroke-opacity=".5" stroke-width="1.5"/>
+<path d="M974 250l-18-11v22z" fill="#1B1613" opacity=".5"/>
+<path d="M120 560.75H1480" stroke="#1B1613" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="160" y="554" width="4" height="6" fill="#FF6B3D"/>
+<rect x="146" y="574" width="32" height="1.5" fill="#1B1613" opacity=".38"/>
+<rect x="360" y="554" width="4" height="6" fill="#FF6B3D"/>
+<rect x="346" y="574" width="32" height="1.5" fill="#1B1613" opacity=".38"/>
+<rect x="560" y="554" width="4" height="6" fill="#FF6B3D"/>
+<rect x="546" y="574" width="32" height="1.5" fill="#1B1613" opacity=".38"/>
+<rect x="760" y="554" width="4" height="6" fill="#FF6B3D"/>
+<rect x="746" y="574" width="32" height="1.5" fill="#1B1613" opacity=".38"/>
+<rect x="960" y="554" width="4" height="6" fill="#FF6B3D"/>
+<rect x="946" y="574" width="32" height="1.5" fill="#1B1613" opacity=".38"/>
+<rect x="1160" y="554" width="4" height="6" fill="#FF6B3D"/>
+<rect x="1146" y="574" width="32" height="1.5" fill="#1B1613" opacity=".38"/>
+<rect x="1360" y="554" width="4" height="6" fill="#FF6B3D"/>
+<rect x="1346" y="574" width="32" height="1.5" fill="#1B1613" opacity=".38"/>
+<rect x="1440" y="572" width="40" height="1.5" fill="#1B1613" opacity=".2"/>
+</svg>

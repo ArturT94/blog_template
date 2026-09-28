@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Иллюстрация: категории покупок решёткой">
+<title>Иллюстрация: категории покупок решёткой</title>
+<rect width="1200" height="800" fill="#FFF3E7"/>
+<filter id="g7" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1200" height="800" filter="url(#g7)" opacity="0.05"/>
+<rect x="171" y="136" width="88" height="88" fill="#FF6B3D" opacity="1"/>
+<rect x="281" y="136" width="88" height="88" fill="#FF6B3D" opacity="1"/>
+<rect x="391" y="136" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="501" y="136" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="611" y="136" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="721" y="136" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="831" y="136" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="941" y="136" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="171" y="246" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="281" y="246" width="88" height="88" fill="#FF6B3D" opacity="1"/>
+<rect x="391" y="246" width="88" height="88" fill="#E3D2B9" opacity="1"/>
+<rect x="501" y="246" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="611" y="246" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="721" y="246" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="831" y="246" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="941" y="246" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="171" y="356" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="281" y="356" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="391" y="356" width="88" height="88" fill="#E3D2B9" opacity="1"/>
+<rect x="501" y="356" width="88" height="88" fill="#6E6157" opacity=".7"/>
+<rect x="611" y="356" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="721" y="356" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="831" y="356" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="941" y="356" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="171" y="466" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="281" y="466" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="391" y="466" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="501" y="466" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="611" y="466" width="88" height="88" fill="#6E6157" opacity=".7"/>
+<rect x="721" y="466" width="88" height="88" fill="#E3D2B9" opacity="1"/>
+<rect x="831" y="466" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="941" y="466" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="171" y="576" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="281" y="576" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="391" y="576" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="501" y="576" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="611" y="576" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="721" y="576" width="88" height="88" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="831" y="576" width="88" height="88" fill="#FF6B3D" opacity="1"/>
+<rect x="941" y="576" width="88" height="88" fill="#FF6B3D" opacity="1"/>
+</svg>

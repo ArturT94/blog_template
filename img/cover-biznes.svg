@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Иллюстрация: воронка из сужающихся полос">
+<title>Иллюстрация: воронка из сужающихся полос</title>
+<rect width="1200" height="800" fill="#FFF3E7"/>
+<filter id="g37" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="37"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1200" height="800" filter="url(#g37)" opacity="0.05"/>
+<rect x="160" y="133" width="880" height="54" rx="6" fill="#6E93FF" opacity="0.22"/>
+<rect x="208" y="213" width="784" height="54" rx="6" fill="#6E93FF" opacity="0.35"/>
+<rect x="256" y="293" width="688" height="54" rx="6" fill="#6E93FF" opacity="0.48"/>
+<rect x="304" y="373" width="592" height="54" rx="6" fill="#6E93FF" opacity="0.61"/>
+<rect x="352" y="453" width="496" height="54" rx="6" fill="#6E93FF" opacity="0.74"/>
+<rect x="400" y="533" width="400" height="54" rx="6" fill="#6E93FF" opacity="0.87"/>
+<rect x="448" y="613" width="304" height="54" rx="6" fill="#6E93FF" opacity="1.00"/>
+<path d="M600 93.0V713.0" stroke="#1B1613" stroke-opacity=".14" stroke-dasharray="2 8"/>
+<path d="M140 93.0H1060" stroke="#1B1613" stroke-opacity=".22"/>
+<path d="M140 713.0H1060" stroke="#1B1613" stroke-opacity=".22"/>
+</svg>

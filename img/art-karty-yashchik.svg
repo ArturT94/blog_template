@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="Схема: стопка карт в ящике, одна выдвинута вперёд">
+<title>Схема: стопка карт в ящике, одна выдвинута вперёд</title>
+<rect width="900" height="700" fill="#FFF3E7"/>
+<filter id="g28" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="28"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="900" height="700" filter="url(#g28)" opacity="0.05"/>
+<rect x="170" y="220" width="440" height="120" rx="16" fill="#1B1613" opacity=".08"/>
+<rect x="170" y="220" width="440" height="120" rx="16" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="170" y="254" width="440" height="120" rx="16" fill="#1B1613" opacity=".08"/>
+<rect x="170" y="254" width="440" height="120" rx="16" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="170" y="288" width="440" height="120" rx="16" fill="#1B1613" opacity=".08"/>
+<rect x="170" y="288" width="440" height="120" rx="16" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="170" y="322" width="440" height="120" rx="16" fill="#1B1613" opacity=".08"/>
+<rect x="170" y="322" width="440" height="120" rx="16" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<rect x="170" y="180" width="440" height="120" rx="16" fill="#FF6B3D" opacity=".9"/>
+<rect x="204" y="216" width="90" height="12" rx="6" fill="#1B1613" opacity=".4"/>
+<rect x="204" y="256" width="220" height="8" rx="4" fill="#1B1613" opacity=".3"/>
+</svg>

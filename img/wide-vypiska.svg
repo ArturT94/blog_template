@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" width="1600" height="600" role="img" aria-label="Иллюстрация: горизонтальные полосы выписки">
+<title>Иллюстрация: горизонтальные полосы выписки</title>
+<rect width="1600" height="600" fill="#FFF3E7"/>
+<filter id="g13" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="13"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1600" height="600" filter="url(#g13)" opacity="0.04"/>
+<rect x="200" y="60" width="1180" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="92" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="124" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="156" width="1180" height="2" fill="#FF6B3D" opacity=".8"/>
+<rect x="200" y="188" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="220" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="252" width="1180" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="284" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="316" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="348" width="1180" height="2" fill="#FF6B3D" opacity=".8"/>
+<rect x="200" y="380" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="412" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="444" width="1180" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="476" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="508" width="900" height="2" fill="#1B1613" opacity=".18"/>
+<rect x="200" y="540" width="1180" height="2" fill="#1B1613" opacity=".18"/>
+<path d="M200 40V560" stroke="#1B1613" stroke-opacity=".3"/>
+<circle cx="1380" cy="300" r="120" fill="none" stroke="#FF6B3D" stroke-opacity=".5" stroke-width="1.5"/>
+</svg>

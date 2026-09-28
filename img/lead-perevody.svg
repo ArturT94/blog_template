@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Понемногу: два счёта и перевод между ними">
+<title>Понемногу: два счёта и перевод между ними</title>
+<defs><linearGradient id="pw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFCF7"/><stop offset=".55" stop-color="#FFFCF7"/><stop offset="1" stop-color="#FFF3E7"/></linearGradient><radialGradient id="gl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FF6B3D" stop-opacity=".26"/><stop offset=".5" stop-color="#FF6B3D" stop-opacity=".1"/><stop offset="1" stop-color="#FF6B3D" stop-opacity="0"/></radialGradient><radialGradient id="gd" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFF3E7" stop-opacity=".95"/><stop offset=".62" stop-color="#FFF3E7" stop-opacity=".8"/><stop offset="1" stop-color="#FFF3E7" stop-opacity="0"/></radialGradient><radialGradient id="cg" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FF6B3D" stop-opacity=".34"/><stop offset=".55" stop-color="#FF6B3D" stop-opacity=".14"/><stop offset="1" stop-color="#FF6B3D" stop-opacity="0"/></radialGradient><radialGradient id="bl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FF6B3D" stop-opacity=".07"/><stop offset="1" stop-color="#FF6B3D" stop-opacity="0"/></radialGradient><linearGradient id="ft" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFCF7" stop-opacity="1"/><stop offset="1" stop-color="#FFFCF7" stop-opacity="0"/></linearGradient><linearGradient id="fb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFCF7" stop-opacity="0"/><stop offset=".4" stop-color="#FFFCF7" stop-opacity=".3"/><stop offset=".8" stop-color="#FFFCF7" stop-opacity=".75"/><stop offset="1" stop-color="#FFFCF7" stop-opacity=".95"/></linearGradient><linearGradient id="sw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFCF7" stop-opacity="0"/><stop offset=".5" stop-color="#FFFCF7" stop-opacity=".55"/><stop offset="1" stop-color="#FFFCF7" stop-opacity="0"/></linearGradient></defs>
+<rect width="1600" height="1000" fill="url(#pw)"/>
+<filter id="g41" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="41"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1600" height="1000" filter="url(#g41)" opacity="0.045"/>
+<circle cx="1180" cy="250" r="620" fill="url(#bl)"/>
+<circle cx="700" cy="240" r="340" fill="url(#bl)"/>
+<circle cx="350" cy="660" r="380" fill="url(#bl)"/>
+<circle cx="1150" cy="720" r="330" fill="url(#bl)"/>
+<circle cx="1345" cy="285" r="265" fill="#FF6B3D" opacity=".2"/>
+<circle cx="1345" cy="285" r="265" fill="none" stroke="#1B1613" stroke-opacity=".2"/>
+<circle cx="1345" cy="285" r="179" fill="none" stroke="#1B1613" stroke-opacity=".09"/>
+<circle cx="1300" cy="-20" r="230" fill="none" stroke="#1B1613" stroke-opacity=".15" stroke-width="1.5"/>
+<ellipse cx="1330" cy="700" rx="470" ry="215" fill="url(#gd)"/>
+<circle cx="1285" cy="315" r="145" fill="#FF6B3D" opacity=".1"/>
+<circle cx="1425" cy="145" r="110" fill="#FFFCF7" fill-opacity=".8" stroke="#1B1613" stroke-opacity=".5" stroke-width="1.5"/>
+<circle cx="1425" cy="145" r="70" fill="none" stroke="#1B1613" stroke-opacity=".15"/>
+<g class="acc"><circle cx="1150" cy="445" r="125" fill="#FF6B3D"/><circle cx="1150" cy="445" r="125" fill="none" stroke="#1B1613" stroke-opacity=".26"/></g>
+<circle cx="1150" cy="445" r="177" fill="none" stroke="#1B1613" stroke-opacity=".12" stroke-dasharray="2 10" class="route"/>
+<circle class="pulse" cx="1150" cy="445" r="125" fill="none" stroke="#FF6B3D" stroke-width="2"/>
+<path d="M1150 445 Q1560 420 1425 145" fill="none" stroke="#FF6B3D" stroke-opacity=".22" stroke-width="26" stroke-linecap="round"/>
+<path d="M1150 445 Q1560 420 1425 145" fill="none" stroke="#1B1613" stroke-opacity=".38" stroke-width="1.5"/>
+<circle cx="1244" cy="435" r="3" fill="#1B1613" opacity="0.10"/>
+<circle cx="1321" cy="417" r="3" fill="#1B1613" opacity="0.12"/>
+<circle cx="1381" cy="391" r="3" fill="#1B1613" opacity="0.13"/>
+<circle cx="1424" cy="358" r="3" fill="#1B1613" opacity="0.15"/>
+<circle cx="1450" cy="316" r="3" fill="#1B1613" opacity="0.17"/>
+<circle cx="1458" cy="267" r="3" fill="#1B1613" opacity="0.18"/>
+<circle cx="1450" cy="210" r="3" fill="#1B1613" opacity="0.20"/>
+<g class="coin" style="--d:-0.6s"><circle cx="1227" cy="438" r="72" fill="url(#cg)"/><circle cx="1227" cy="438" r="30" fill="#FF6B3D"/><circle cx="1227" cy="438" r="30" fill="none" stroke="#1B1613" stroke-opacity=".34"/><circle cx="1227" cy="438" r="14" fill="none" stroke="#1B1613" stroke-opacity=".22"/></g>
+<g class="coin" style="--d:-1.8s"><circle cx="1347" cy="408" r="72" fill="url(#cg)"/><circle cx="1347" cy="408" r="30" fill="#FF6B3D"/><circle cx="1347" cy="408" r="30" fill="none" stroke="#1B1613" stroke-opacity=".34"/><circle cx="1347" cy="408" r="14" fill="none" stroke="#1B1613" stroke-opacity=".22"/></g>
+<g class="coin" style="--d:-3.0s"><circle cx="1424" cy="358" r="72" fill="url(#cg)"/><circle cx="1424" cy="358" r="30" fill="#FF6B3D"/><circle cx="1424" cy="358" r="30" fill="none" stroke="#1B1613" stroke-opacity=".34"/><circle cx="1424" cy="358" r="14" fill="none" stroke="#1B1613" stroke-opacity=".22"/></g>
+<g class="coin" style="--d:-4.2s"><circle cx="1457" cy="288" r="72" fill="url(#cg)"/><circle cx="1457" cy="288" r="30" fill="#FF6B3D"/><circle cx="1457" cy="288" r="30" fill="none" stroke="#1B1613" stroke-opacity=".34"/><circle cx="1457" cy="288" r="14" fill="none" stroke="#1B1613" stroke-opacity=".22"/></g>
+<g class="coin" style="--d:-5.4s"><circle cx="1447" cy="198" r="72" fill="url(#cg)"/><circle cx="1447" cy="198" r="30" fill="#FF6B3D"/><circle cx="1447" cy="198" r="30" fill="none" stroke="#1B1613" stroke-opacity=".34"/><circle cx="1447" cy="198" r="14" fill="none" stroke="#1B1613" stroke-opacity=".22"/></g>
+<circle cx="1010" cy="512" r="4.4" fill="#1B1613" opacity="0.18"/>
+<circle cx="956" cy="518" r="4.1" fill="#1B1613" opacity="0.16"/>
+<circle cx="902" cy="524" r="3.8" fill="#1B1613" opacity="0.14"/>
+<circle cx="848" cy="512" r="3.5" fill="#1B1613" opacity="0.13"/>
+<circle cx="794" cy="518" r="3.2" fill="#1B1613" opacity="0.11"/>
+<circle cx="740" cy="524" r="2.9" fill="#1B1613" opacity="0.09"/>
+<circle cx="686" cy="512" r="2.6" fill="#1B1613" opacity="0.07"/>
+<circle cx="632" cy="518" r="2.3" fill="#1B1613" opacity="0.05"/>
+<circle cx="430" cy="62" r="6" fill="#FF6B3D" opacity="0.5"/>
+<circle cx="742" cy="34" r="4" fill="#FF6B3D" opacity="0.34"/>
+<circle cx="296" cy="132" r="5" fill="#FF6B3D" opacity="0.3"/>
+<circle cx="1030" cy="66" r="5" fill="#FF6B3D" opacity="0.38"/>
+<rect x="0" y="0" width="1600" height="110" fill="url(#ft)"/>
+<rect x="0" y="620" width="1600" height="380" fill="url(#fb)"/>
+<rect class="sweep" x="-380" y="0" width="380" height="1000" fill="url(#sw)"/>
+<style>
+    /* Монета летит по той же дуге, что нарисована в разметке. Своё место
+       она помнит через cx/cy: если offset-path не поддержан или анимации
+       выключены, монета просто лежит на дуге — кадр не пустеет. */
+    /* transform-box: fill-box обязателен: без него offset-anchor берётся
+       от начала системы координат SVG (центр viewBox), и монета улетает
+       далеко за кадр — движение есть, а видеть нечего. */
+    .coin { transform-box: fill-box; transform-origin: 50% 50%;
+             offset-path: path("M1150 445 Q1560 420 1425 145");
+             offset-rotate: 0deg;
+             animation: fly 6s linear var(--d) infinite; }
+    @keyframes fly { from { offset-distance: 0%; } to { offset-distance: 100%; } }
+
+    /* Счёт дышит, от него расходится кольцо перевода, пунктирный
+       обод медленно поворачивается. Это фон, а не аттракцион: движение
+       идёт само, пока читатель читает заголовок. */
+    .acc { transform-box: fill-box; transform-origin: 50% 50%;
+            animation: breathe 6s ease-in-out infinite; }
+    @keyframes breathe {
+      0%, 100% { transform: scale(1); }
+      50%      { transform: scale(1.035); }
+    }
+
+    .pulse { transform-box: fill-box; transform-origin: 50% 50%;
+              animation: pulse 6s ease-out infinite; }
+    @keyframes pulse {
+      0%   { transform: scale(1); opacity: .5; }
+      70%  { opacity: .1; }
+      100% { transform: scale(2.4); opacity: 0; }
+    }
+
+    .route { transform-box: fill-box; transform-origin: 50% 50%;
+              animation: spin 90s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .sweep { animation: sweep 12s cubic-bezier(.4,0,.6,1) 3s infinite; }
+    @keyframes sweep {
+      0%   { transform: translateX(0); opacity: 0; }
+      10%  { opacity: .9; }
+      80%  { opacity: .9; }
+      100% { transform: translateX(1980px); opacity: 0; }
+    }
+
+    /* Анимации выключены — монеты лежат на дуге, блик погашен:
+       конечное состояние, а не пустой кадр. */
+    @media (prefers-reduced-motion: reduce) {
+      .coin { animation: none; offset-path: none; }
+      .acc, .route { animation: none; }
+      .pulse { animation: none; opacity: 0; }
+      .sweep { animation: none; opacity: 0; }
+    }
+    </style>
+    </svg>
+    

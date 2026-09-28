@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="ru" class="no-js" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Понемногу — блог обо всём понемногу</title>
+<meta name="description" content="Деньги, бизнес, техника, спорт, жизнь — одиннадцать историй с цифрами из собственных выписок. Без давления и без обещаний доходности. Партнёрские ссылки всегда помечены.">
+<!-- Светлая тема — оформление по умолчанию; тёмная включается только
+     переключателем, поэтому theme-color здесь один и меняется из JS. -->
+<meta name="theme-color" content="#FFFCF7">
+<!-- @seo — правится в tools/make-seo.py -->
+<link rel="canonical" href="https://REPLACE-DOMAIN/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Понемногу">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:url" content="https://REPLACE-DOMAIN/">
+<meta property="og:title" content="Понемногу — блог обо всём понемногу">
+<meta property="og:description" content="Деньги, бизнес, техника, спорт, жизнь — одиннадцать историй с цифрами из собственных выписок. Без давления и без обещаний доходности. Партнёрские ссылки всегда помечены.">
+<meta property="og:image" content="https://REPLACE-DOMAIN/img/og/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Понемногу — блог обо всём понемногу">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Понемногу — блог обо всём понемногу">
+<meta name="twitter:description" content="Деньги, бизнес, техника, спорт, жизнь — одиннадцать историй с цифрами из собственных выписок. Без давления и без обещаний доходности. Партнёрские ссылки всегда помечены.">
+<meta name="twitter:image" content="https://REPLACE-DOMAIN/img/og/og-default.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://REPLACE-DOMAIN/#site","url":"https://REPLACE-DOMAIN/","name":"Понемногу","inLanguage":"ru-RU","description":"Блог обо всём понемногу: деньги, бизнес, техника, спорт, жизнь."},{"@type":"Person","@id":"https://REPLACE-DOMAIN/#author","name":"Артур Тарасов","url":"https://REPLACE-DOMAIN/o-sebe.html"},{"@type":"Organization","@id":"https://REPLACE-DOMAIN/#publisher","name":"Понемногу","url":"https://REPLACE-DOMAIN/"}]}</script>
+<!-- /@seo -->
+
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23FFFCF7'/%3E%3Cg transform='translate(5.12 5.12) scale(0.68)'%3E%3Cg fill='%231B1613'%3E%3Crect x='3.4' y='23.8' width='12.0' height='7.2' rx='3.6'/%3E%3Crect x='7.0' y='12.4' width='15.6' height='7.2' rx='3.6'/%3E%3C/g%3E%3Crect x='10.6' y='1.0' width='19.2' height='7.2' rx='3.6' fill='%23E8501E'/%3E%3C/g%3E%3C/svg%3E">
+
+<link rel="preload" href="fonts/literata-normal-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/literata-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script src="main.js" defer></script>
+<script>
+/* Тема выставляется до первой отрисовки, иначе будет вспышка светлого фона. */
+(function () {
+  var root = document.documentElement;
+  root.className = root.className.replace('no-js', 'js');
+  try {
+    // На <html> уже стоит data-theme="light": система на оформление
+    // не влияет, тёмная включается только переключателем.
+    var saved = localStorage.getItem('theme');
+    if (saved) {
+      root.setAttribute('data-theme', saved);
+      if (saved === 'dark') {
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute('content', '#14110E');
+      }
+    }
+  } catch (e) { /* приватный режим — остаётся светлая */ }
+}());
+</script>
+</head>
+
+<body id="top">
+<!-- @chrome:sprite — правится в tools/sync-chrome.py -->
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0" style="position:absolute">
+<defs>
+<symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 7h17M3.5 12h17M3.5 17h17"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13.5 6.5L19 12l-5.5 5.5"/></symbol>
+<symbol id="i-arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12H5M10.5 6.5L5 12l5.5 5.5"/></symbol>
+<symbol id="i-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V5M6.5 10.5L12 5l5.5 5.5"/></symbol>
+<symbol id="i-arrow-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6.5 13.5L12 19l5.5-5.5"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.4v2.6M12 19v2.6M2.4 12h2.6M19 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1z"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.2V12l3.2 2"/></symbol>
+<symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="15" rx="1.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="M3.6 7l8.4 6 8.4-6"/></symbol>
+<symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3.5L10.5 14M21 3.5l-6.5 17-4-8-8-4z"/></symbol>
+<symbol id="i-rss" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 18.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/><path d="M4.5 11.5a8 8 0 0 1 8 8M4.5 5a14.5 14.5 0 0 1 14.5 14.5"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 6.5"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4.5h6a3 3 0 0 1 3 3v12a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 4.5h-6a3 3 0 0 0-3 3v12a2.5 2.5 0 0 1 2.5-2.5H20z"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13.5a4 4 0 0 0 5.7 0l2.8-2.8a4 4 0 0 0-5.7-5.7l-1.4 1.4"/><path d="M14 10.5a4 4 0 0 0-5.7 0l-2.8 2.8a4 4 0 0 0 5.7 5.7l1.4-1.4"/></symbol>
+<symbol id="i-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9.5l6 6 6-6"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/></symbol>
+<symbol id="i-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="7" height="7" rx="1"/><rect x="13.5" y="3.5" width="7" height="7" rx="1"/><rect x="3.5" y="13.5" width="7" height="7" rx="1"/><rect x="13.5" y="13.5" width="7" height="7" rx="1"/></symbol>
+<symbol id="i-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4.5h5.5V10M19.5 4.5L11 13"/><path d="M18 14.5v4a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l7 2.6v6c0 4.2-2.9 7.4-7 8.4-4.1-1-7-4.2-7-8.4v-6z"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6.5h11M9 12h11M9 17.5h11M4.5 6.5h.01M4.5 12h.01M4.5 17.5h.01"/></symbol>
+<symbol id="i-quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6.5C6.7 8 5.5 10.4 5.5 13.8c0 2.3 1.2 3.7 3 3.7 1.6 0 2.8-1.2 2.8-2.8 0-1.5-1-2.6-2.5-2.6-.3 0-.6 0-.8.1.3-1.6 1.3-2.9 2.9-3.9zM19 6.5c-2.8 1.5-4 3.9-4 7.3 0 2.3 1.2 3.7 3 3.7 1.6 0 2.8-1.2 2.8-2.8 0-1.5-1-2.6-2.5-2.6-.3 0-.6 0-.8.1.3-1.6 1.3-2.9 2.9-3.9z"/></symbol>
+<symbol id="i-filter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 5.5h17l-6.5 8v5.5l-4 2v-7.5z"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.8" cy="10.8" r="6.6"/><path d="M15.6 15.6L21 21"/></symbol>
+<symbol id="i-mark" viewBox="0 0 32 32"><rect x="3.4" y="23.8" width="12.0" height="7.2" rx="3.6" fill="currentColor"/><rect x="7.0" y="12.4" width="15.6" height="7.2" rx="3.6" fill="currentColor"/><rect x="10.6" y="1.0" width="19.2" height="7.2" rx="3.6" fill="var(--mark-accent, currentColor)"/></symbol>
+</defs>
+</svg>
+
+<div class="progress" aria-hidden="true"></div>
+<a class="skip" href="#main">К содержанию</a>
+
+<!-- @chrome:masthead — правится в tools/sync-chrome.py -->
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead__meta">
+      <span>Блог обо всём понемногу</span>
+      <span>Выпуск № 12 — сентябрь 2026</span>
+    </div>
+
+    <div class="masthead__bar">
+      <a class="wordmark" href="index.html">
+        <svg class="mark" aria-hidden="true"><use href="#i-mark"></use></svg>
+        <span>Понемногу</span>
+      </a>
+
+      <div class="masthead__tools">
+        <nav class="nav" id="nav" aria-label="Основная навигация">
+          <a href="blog.html"><span class="nav__n">01</span>Истории</a>
+          <a href="o-sebe.html"><span class="nav__n">02</span>Об авторе</a>
+          <a href="voprosy.html"><span class="nav__n">03</span>Вопросы</a>
+          <a href="chestno.html"><span class="nav__n">04</span>Честно о ссылках</a>
+          <a href="sotrudnichestvo.html"><span class="nav__n">05</span>Сотрудничество</a>
+        </nav>
+
+        <!-- Без JS это обычная ссылка на blog.html, где перечислены все
+             истории с фильтром по разделам. С JS main.js перехватывает
+             клик и открывает панель поиска. -->
+        <a class="search-open" href="blog.html" aria-label="Поиск по сайту" title="Поиск — клавиша /">
+          <svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg>
+        </a>
+
+        <button class="theme" type="button" aria-pressed="false" aria-label="Переключить тему">
+          <svg class="icon-sun" aria-hidden="true"><use href="#i-sun"></use></svg>
+          <svg class="icon-moon" aria-hidden="true"><use href="#i-moon"></use></svg>
+        </button>
+
+        <button class="burger" type="button" id="burger"
+                aria-expanded="false" aria-controls="nav" aria-label="Меню">
+          <svg class="burger__open" aria-hidden="true"><use href="#i-menu"></use></svg>
+          <svg class="burger__close" aria-hidden="true"><use href="#i-close"></use></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="drawer-scrim" id="scrim" hidden></div>
+
+<div class="search" id="search" hidden>
+  <div class="search__veil" data-search-close></div>
+  <div class="search__panel" role="dialog" aria-modal="true" aria-label="Поиск по сайту">
+    <div class="search__field">
+      <svg class="search__icon" aria-hidden="true"><use href="#i-search"></use></svg>
+      <input class="search__input" id="search-input" type="search" autocomplete="off"
+             spellcheck="false" placeholder="Кэшбэк, переводы, бюджет…"
+             aria-label="Поисковый запрос" aria-describedby="search-status">
+      <button class="search__close" type="button" data-search-close aria-label="Закрыть поиск">
+        <svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+    <p class="search__status" id="search-status" role="status">Начните печатать — ищу по всем историям и страницам.</p>
+    <ul class="search__list" id="search-list"></ul>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ================= Ведущий материал ================= -->
+  <!-- Картинка стоит СЗАДИ текста: полотно растянуто на всю ширину окна,
+       а метка, заголовок, лид и фигура «0 ₽» лежат поверх него. Плотное
+       в картинке собрано в правой четверти — там, где текста нет, —
+       поэтому заголовок и ограничен по ширине (см. раздел 28 styles.css).
+       alt пустой: это фон, а не содержание, смысл тот же, что в тексте
+       рядом. Живёт в img/lead-perevody.svg, рисуется tools/make-art.py. -->
+  <section class="lead lead--front" data-c="dengi">
+    <figure class="lead__art" aria-hidden="true">
+      <img src="img/lead-perevody.svg" width="1600" height="1000" decoding="async" alt="">
+    </figure>
+
+    <div class="wrap lead__inner">
+      <p class="kicker kicker--accent reveal">§ 01 — Про деньги</p>
+
+      <h1 class="reveal">Я перестал платить за&nbsp;переводы себе в&nbsp;другой&nbsp;банк</h1>
+
+      <div class="split split--7-5 lead__foot">
+
+        <div class="reveal">
+          <p class="lead__standfirst">
+            В марте я разложил деньги по двум банкам и приготовился терять
+            на комиссиях. Через семь месяцев открыл выписку и посчитал,
+            сколько это стоило на самом деле.
+          </p>
+          <p class="lead__byline meta">
+            <span>Артур Тарасов</span>
+            <span>8 минут чтения</span>
+            <span>14 сентября 2026</span>
+          </p>
+          <p class="lead__more">
+            <a class="link" href="perevody.html">Читать историю</a>
+          </p>
+        </div>
+
+        <figure class="figure reveal">
+          <p class="figure__numeral">0<span class="figure__unit">₽</span></p>
+          <figcaption>
+            столько комиссий за переводы себе в другой банк
+            я заплатил за семь месяцев — по данным моей выписки
+          </figcaption>
+        </figure>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= Пять разделов ================= -->
+  <section class="wrap section" aria-labelledby="rail-h">
+    <div class="index__head">
+      <h2 class="kicker" id="rail-h">Пять разделов</h2>
+      <span class="kicker">Обо всём понемногу</span>
+    </div>
+
+    <div class="rail">
+      <a class="rail__panel" href="blog.html#dengi" data-c="dengi">
+        <span class="rail__n">§ 01–07</span>
+        <span class="rail__name">Деньги</span>
+        <span class="rail__text">Переводы, кэшбэк, накопления, карты. Семь историй о том, как устроены мои собственные деньги — с цифрами из выписок.</span>
+        <span class="rail__count">Семь историй</span>
+      </a>
+      <a class="rail__panel" href="blog.html#biznes" data-c="biznes">
+        <span class="rail__n">§ 08</span>
+        <span class="rail__name">Бизнес</span>
+        <span class="rail__text">Как я потратил чужие сорок тысяч на рекламу и узнал, что выручка и деньги — разные числа.</span>
+        <span class="rail__count">Одна история</span>
+      </a>
+      <a class="rail__panel" href="blog.html#it" data-c="it">
+        <span class="rail__n">§ 09</span>
+        <span class="rail__name">Техника</span>
+        <span class="rail__text">Домашний сервер, подписки и один диск, который умер ровно тогда, когда не должен был.</span>
+        <span class="rail__count">Одна история</span>
+      </a>
+      <a class="rail__panel" href="blog.html#sport" data-c="sport">
+        <span class="rail__n">§ 10</span>
+        <span class="rail__name">Спорт</span>
+        <span class="rail__text">Год без зала: ходьба, турник в коридоре и двенадцать недель, о которых обычно не пишут.</span>
+        <span class="rail__count">Одна история</span>
+      </a>
+      <a class="rail__panel" href="blog.html#zhizn" data-c="zhizn">
+        <span class="rail__n">§ 11</span>
+        <span class="rail__name">Жизнь</span>
+        <span class="rail__text">Переезд, смета и факт. И всё остальное, что не про деньги напрямую, но всё равно про них.</span>
+        <span class="rail__count">Одна история</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ================= Что я пробовал ================= -->
+  <section class="wrap section" aria-labelledby="tried-h">
+    <div class="index__head">
+      <h2 class="kicker" id="tried-h">Что я пробовал и чем кончилось</h2>
+      <span class="kicker">Одиннадцать историй в одной таблице</span>
+    </div>
+
+    <table class="tried">
+      <caption>
+        Не советы, а результат. Столбец «Бросил» — не провал: просто
+        не прижилось, и об этом тоже написано.
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Что</th>
+          <th scope="col">Пробовал</th>
+          <th scope="col">Бросил</th>
+          <th scope="col">Осталось</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr data-c="dengi" style="--i: 0">
+            <th scope="row">Вести бюджет в таблице<span class="tried__topic">Деньги</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+          </tr>
+          <tr data-c="dengi" style="--i: 1">
+            <th scope="row">Считать каждую покупку<span class="tried__topic">Деньги</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+          </tr>
+          <tr data-c="dengi" style="--i: 2">
+            <th scope="row">Держать четыре карты сразу<span class="tried__topic">Деньги</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+          </tr>
+          <tr data-c="sport" style="--i: 3">
+            <th scope="row">Абонемент в зал<span class="tried__topic">Спорт</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+          </tr>
+          <tr data-c="dengi" style="--i: 4">
+            <th scope="row">Приложение банка на главном экране<span class="tried__topic">Деньги</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+          </tr>
+          <tr data-c="it" style="--i: 5">
+            <th scope="row">Домашний сервер<span class="tried__topic">Техника</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+          </tr>
+          <tr data-c="it" style="--i: 6">
+            <th scope="row">Отдельная карта для подписок<span class="tried__topic">Техника</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+          </tr>
+          <tr data-c="sport" style="--i: 7">
+            <th scope="row">Ходить пешком каждый день<span class="tried__topic">Спорт</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+          </tr>
+          <tr data-c="zhizn" style="--i: 8">
+            <th scope="row">Подушка на накопительном счёте<span class="tried__topic">Жизнь</span></th>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+            <td><span class="tried__no" aria-hidden="true">—</span><span class="visually-hidden">нет</span></td>
+            <td><span class="tried__yes" aria-hidden="true">✓</span><span class="visually-hidden">да</span></td>
+          </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ================= Свежее ================= -->
+  <section class="wrap section" aria-labelledby="fresh-h">
+    <div class="index__head">
+      <h2 class="kicker" id="fresh-h">Свежее</h2>
+      <span class="kicker">Четыре истории</span>
+    </div>
+
+    <div data-slider>
+      <div class="slider__track" tabindex="0" role="group" aria-label="Свежие истории">
+
+        <article class="card" data-c="dengi">
+          <a class="card__link" href="byudzhet.html">
+            <span class="card__cover">
+              <img src="img/cover-byudzhet.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            </span>
+            <span class="card__no">§ 07 — Про бюджет</span>
+            <h3 class="card__title">Я вёл бюджет год и&nbsp;бросил. Вот что осталось</h3>
+            <span class="card__meta"><span>7 минут</span><span>27 сентября</span></span>
+          </a>
+        </article>
+
+        <article class="card" data-c="zhizn">
+          <a class="card__link" href="zhizn.html">
+            <span class="card__cover">
+              <img src="img/cover-zhizn.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            </span>
+            <span class="card__no">§ 11 — Про жизнь</span>
+            <h3 class="card__title">Переезд: смета против факта</h3>
+            <span class="card__meta"><span>7 минут</span><span>25 сентября</span></span>
+          </a>
+        </article>
+
+        <article class="card" data-c="dengi">
+          <a class="card__link" href="bezopasnost.html">
+            <span class="card__cover">
+              <img src="img/cover-bezopasnost.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            </span>
+            <span class="card__no">§ 06 — Про безопасность</span>
+            <h3 class="card__title">Мне позвонили из банка. Это был не&nbsp;банк</h3>
+            <span class="card__meta"><span>5 минут</span><span>24 сентября</span></span>
+          </a>
+        </article>
+
+        <article class="card" data-c="dengi">
+          <a class="card__link" href="prilozheniya.html">
+            <span class="card__cover">
+              <img src="img/cover-prilozheniya.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            </span>
+            <span class="card__no">§ 05 — Про приложения</span>
+            <h3 class="card__title">Я убрал приложение банка с&nbsp;главного экрана</h3>
+            <span class="card__meta"><span>5 минут</span><span>22 сентября</span></span>
+          </a>
+        </article>
+
+      </div>
+
+      <div class="slider__bar">
+        <span class="slider__count" data-count aria-live="polite">01 / 04</span>
+        <div class="slider__nav">
+          <button class="slider__btn" type="button" data-prev aria-label="Предыдущая история">
+            <svg aria-hidden="true"><use href="#i-arrow-left"></use></svg>
+          </button>
+          <button class="slider__btn" type="button" data-next aria-label="Следующая история">
+            <svg aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Указатель материалов ================= -->
+  <section class="index" id="index">
+    <div class="wrap">
+
+      <div class="index__head">
+        <p class="kicker">Указатель</p>
+        <p class="meta">Одиннадцать материалов · 70 минут чтения</p>
+      </div>
+
+      <article class="entry reveal" data-c="dengi">
+        <a class="entry__link" href="perevody.html">
+          <span class="entry__no">01</span>
+          <span class="entry__body">
+            <span class="entry__title">Я перестал платить за переводы себе в другой банк</span>
+            <span class="entry__dek">Как я развёл зарплату и карту по разным банкам, чего боялся и что показала выписка за семь месяцев.</span>
+          </span>
+          <span class="entry__topic">Деньги</span>
+          <span class="entry__time">8 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="dengi">
+        <a class="entry__link" href="keshbek.html">
+          <span class="entry__no">02</span>
+          <span class="entry__body">
+            <span class="entry__title">Кэшбэк, который я полгода считал в таблице</span>
+            <span class="entry__dek">Я записывал каждую покупку, чтобы понять, какие категории мне нужны на самом деле. Таблица сказала не то, что я ожидал.</span>
+          </span>
+          <span class="entry__topic">Деньги</span>
+          <span class="entry__time">6 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="dengi">
+        <a class="entry__link" href="kopilka.html">
+          <span class="entry__no">03</span>
+          <span class="entry__body">
+            <span class="entry__title">Копилка, которую я не заметил</span>
+            <span class="entry__dek">Я не умею копить. Поэтому перестал копить и просто перестал мешать деньгам оставаться на счёте.</span>
+          </span>
+          <span class="entry__topic">Деньги</span>
+          <span class="entry__time">5 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="dengi">
+        <a class="entry__link" href="karty.html">
+          <span class="entry__no">04</span>
+          <span class="entry__body">
+            <span class="entry__title">У меня было четыре карты, и три оказались лишними</span>
+            <span class="entry__dek">Я посчитал, во что обходится держать карты, которые лежат в ящике. Первый расчёт оказался неверным — и поэтому я его переделал.</span>
+          </span>
+          <span class="entry__topic">Деньги</span>
+          <span class="entry__time">6 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="dengi">
+        <a class="entry__link" href="prilozheniya.html">
+          <span class="entry__no">05</span>
+          <span class="entry__body">
+            <span class="entry__title">Я убрал приложение банка с главного экрана</span>
+            <span class="entry__dek">Не удалил, а убрал в папку на третью страницу. Открывать стал в шесть раз реже — и что из этого вышло на самом деле.</span>
+          </span>
+          <span class="entry__topic">Деньги</span>
+          <span class="entry__time">5 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="dengi">
+        <a class="entry__link" href="bezopasnost.html">
+          <span class="entry__no">06</span>
+          <span class="entry__body">
+            <span class="entry__title">Мне позвонили из банка. Это был не банк</span>
+            <span class="entry__dek">Он знал моё имя, отчество и последние четыре цифры карты. Я не потерял денег — но только потому, что мне было лень.</span>
+          </span>
+          <span class="entry__topic">Деньги</span>
+          <span class="entry__time">5 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="dengi">
+        <a class="entry__link" href="byudzhet.html">
+          <span class="entry__no">07</span>
+          <span class="entry__body">
+            <span class="entry__title">Я вёл бюджет год и бросил. Вот что осталось</span>
+            <span class="entry__dek">Двадцать две категории, четыре таблицы и двенадцать месяцев учёта. В итоге пригодилось одно число и десять минут в воскресенье.</span>
+          </span>
+          <span class="entry__topic">Деньги</span>
+          <span class="entry__time">7 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="biznes">
+        <a class="entry__link" href="biznes.html">
+          <span class="entry__no">08</span>
+          <span class="entry__body">
+            <span class="entry__title">Первый счёт за рекламу</span>
+            <span class="entry__dek">Сорок тысяч, тридцать один заказ и восемьдесят четыре тысячи выручки, которая оказалась меньше затрат.</span>
+          </span>
+          <span class="entry__topic">Бизнес</span>
+          <span class="entry__time">8 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="it">
+        <a class="entry__link" href="it.html">
+          <span class="entry__no">09</span>
+          <span class="entry__body">
+            <span class="entry__title">Я собрал домашний сервер и полгода его чинил</span>
+            <span class="entry__dek">Мини-компьютер, четыре службы и диск, который умер не вовремя. Осталось две службы и одно правило.</span>
+          </span>
+          <span class="entry__topic">Техника</span>
+          <span class="entry__time">7 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="sport">
+        <a class="entry__link" href="sport.html">
+          <span class="entry__no">10</span>
+          <span class="entry__body">
+            <span class="entry__title">Год без зала</span>
+            <span class="entry__dek">Тридцать две тысячи за абонемент, сорок один поход и двенадцать недель, о которых обычно не пишут.</span>
+          </span>
+          <span class="entry__topic">Спорт</span>
+          <span class="entry__time">6 мин</span>
+        </a>
+      </article>
+
+      <article class="entry reveal" data-c="zhizn">
+        <a class="entry__link" href="zhizn.html">
+          <span class="entry__no">11</span>
+          <span class="entry__body">
+            <span class="entry__title">Переезд: смета против факта</span>
+            <span class="entry__dek">Я посчитал, что переезд обойдётся в сто двадцать тысяч. Он обошёлся в сто девяносто семь. Разница выросла из семи мелочей.</span>
+          </span>
+          <span class="entry__topic">Жизнь</span>
+          <span class="entry__time">7 мин</span>
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ================= Честно о том, как это устроено ================= -->
+  <section class="manifesto">
+    <div class="wrap">
+      <p class="reveal">
+        Это блог обо всём понемногу: деньги, работа, техника, спорт, жизнь.
+        Я не продаю курсы и не учу, как разбогатеть, — я разбираю собственный
+        опыт и считаю цифры. В части текстов есть <em>партнёрская ссылка</em>,
+        и я всегда говорю об этом прямо, в начале материала.
+      </p>
+      <p class="manifesto__foot reveal">
+        Если вы оформите карту по моей ссылке, банк заплатит мне. Вам это
+        не будет стоить ничего: цена и условия те же, что и при обычном
+        оформлении. Я пишу только о том, чем пользуюсь сам, и не беру
+        денег за отзывы.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= Колофон ================= -->
+<!-- @chrome:footer — правится в tools/sync-chrome.py -->
+<footer class="colophon">
+  <div class="wrap">
+    <div class="colophon__grid">
+
+      <div>
+        <h4>О блоге</h4>
+        <p>
+          «Понемногу» — блог обо всём понемногу: деньги, работа, техника,
+          спорт, жизнь. Пишет один человек, без редакции. В части текстов
+          есть партнёрские ссылки и помеченная реклама — и то и другое
+          обозначено прямо в тексте.
+        </p>
+      </div>
+
+      <div>
+        <h4>Разделы</h4>
+        <ul>
+          <li><a href="blog.html#dengi">Деньги</a></li>
+          <li><a href="blog.html#biznes">Бизнес</a></li>
+          <li><a href="blog.html#it">ИТ</a></li>
+          <li><a href="blog.html#sport">Спорт</a></li>
+          <li><a href="blog.html#zhizn">Жизнь</a></li>
+          <li><a href="blog.html">Все истории</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Страницы</h4>
+        <ul>
+          <li><a href="o-sebe.html">Об авторе</a></li>
+          <li><a href="voprosy.html">Вопросы и ответы</a></li>
+          <li><a href="chestno.html">Честно о ссылках</a></li>
+          <li><a href="sotrudnichestvo.html">Сотрудничество</a></li>
+          <li><a href="feed.xml"><svg class="icon" aria-hidden="true"><use href="#i-rss"></use></svg>RSS-подписка</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Связаться</h4>
+        <ul>
+          <li><a href="mailto:hi@example.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>hi@example.com</a></li>
+          <li><a href="REPLACE_TELEGRAM_LINK" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-send"></use></svg>Телеграм-канал</a></li>
+        </ul>
+        <p class="colophon__note">
+          Отвечаю сам, обычно в течение дня. По вопросам партнёрской
+          программы — тоже сюда.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="colophon__base">
+      <span>© 2026 Понемногу</span>
+      <span>Набрано Literata и JetBrains Mono</span>
+      <span>Партнёрские ссылки помечены</span>
+      <a class="colophon__top" href="#top"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up"></use></svg>Наверх</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Собирается из blog.html: python3 tools/make-seo.py -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Понемногу</title>
+    <link>https://REPLACE-DOMAIN/</link>
+    <description>Блог обо всём понемногу: деньги, бизнес, техника, спорт, жизнь. Истории с цифрами из собственных выписок. Партнёрские ссылки всегда помечены.</description>
+    <language>ru</language>
+    <lastBuildDate>2026-09-27, 09:00:00 +0300</lastBuildDate>
+    <atom:link href="https://REPLACE-DOMAIN/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Я вёл бюджет год и бросил. Вот что осталось</title>
+      <link>https://REPLACE-DOMAIN/byudzhet.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/byudzhet.html</guid>
+      <pubDate>2026-09-27, 09:00:00 +0300</pubDate>
+      <category>Про деньги</category>
+      <description>Двадцать две категории, четыре таблицы и двенадцать месяцев учёта. В итоге пригодилось одно число и десять минут в воскресенье.</description>
+    </item>
+    <item>
+      <title>Копилка, которую я не заметил</title>
+      <link>https://REPLACE-DOMAIN/kopilka.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/kopilka.html</guid>
+      <pubDate>2026-09-26, 09:00:00 +0300</pubDate>
+      <category>Про деньги</category>
+      <description>Я не умею копить. Поэтому перестал копить и просто перестал мешать деньгам оставаться на счёте.</description>
+    </item>
+    <item>
+      <title>Переезд: смета против факта</title>
+      <link>https://REPLACE-DOMAIN/zhizn.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/zhizn.html</guid>
+      <pubDate>2026-09-25, 09:00:00 +0300</pubDate>
+      <category>Про жизнь</category>
+      <description>Я посчитал, что переезд обойдётся в сто двадцать тысяч. Он обошёлся в сто девяносто семь. Разница выросла из семи мелочей.</description>
+    </item>
+    <item>
+      <title>Мне позвонили из банка. Это был не банк</title>
+      <link>https://REPLACE-DOMAIN/bezopasnost.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/bezopasnost.html</guid>
+      <pubDate>2026-09-24, 09:00:00 +0300</pubDate>
+      <category>Про деньги</category>
+      <description>Он знал моё имя, отчество и последние четыре цифры карты. Я не потерял денег — но только потому, что мне было лень.</description>
+    </item>
+    <item>
+      <title>Я убрал приложение банка с главного экрана</title>
+      <link>https://REPLACE-DOMAIN/prilozheniya.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/prilozheniya.html</guid>
+      <pubDate>2026-09-22, 09:00:00 +0300</pubDate>
+      <category>Про деньги</category>
+      <description>Не удалил, а убрал в папку на третью страницу. Открывать стал в шесть раз реже — и что из этого вышло на самом деле.</description>
+    </item>
+    <item>
+      <title>Кэшбэк, который я полгода считал в таблице</title>
+      <link>https://REPLACE-DOMAIN/keshbek.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/keshbek.html</guid>
+      <pubDate>2026-09-21, 09:00:00 +0300</pubDate>
+      <category>Про деньги</category>
+      <description>Я записывал каждую покупку, чтобы понять, какие категории мне нужны на самом деле. Таблица сказала не то, что я ожидал.</description>
+    </item>
+    <item>
+      <title>У меня было четыре карты, и три оказались лишними</title>
+      <link>https://REPLACE-DOMAIN/karty.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/karty.html</guid>
+      <pubDate>2026-09-20, 09:00:00 +0300</pubDate>
+      <category>Про деньги</category>
+      <description>Я посчитал, во что обходится держать карты, которые лежат в ящике. Первый расчёт оказался неверным — и поэтому я его переделал.</description>
+    </item>
+    <item>
+      <title>Год без зала</title>
+      <link>https://REPLACE-DOMAIN/sport.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/sport.html</guid>
+      <pubDate>2026-09-19, 09:00:00 +0300</pubDate>
+      <category>Про спорт</category>
+      <description>Тридцать две тысячи за абонемент, сорок один поход за год и двенадцать недель, о которых обычно не пишут.</description>
+    </item>
+    <item>
+      <title>Я собрал домашний сервер и полгода его чинил</title>
+      <link>https://REPLACE-DOMAIN/it.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/it.html</guid>
+      <pubDate>2026-09-17, 09:00:00 +0300</pubDate>
+      <category>Про ит</category>
+      <description>Мини-компьютер за двенадцать тысяч, четыре службы и диск, который умер ровно тогда, когда не должен был.</description>
+    </item>
+    <item>
+      <title>Первый счёт за рекламу</title>
+      <link>https://REPLACE-DOMAIN/biznes.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/biznes.html</guid>
+      <pubDate>2026-09-15, 09:00:00 +0300</pubDate>
+      <category>Про бизнес</category>
+      <description>Сорок тысяч рублей, тридцать один заказ и восемьдесят четыре тысячи выручки, которая оказалась меньше затрат.</description>
+    </item>
+    <item>
+      <title>Я перестал платить за переводы себе в другой банк</title>
+      <link>https://REPLACE-DOMAIN/perevody.html</link>
+      <guid isPermaLink="true">https://REPLACE-DOMAIN/perevody.html</guid>
+      <pubDate>2026-09-14, 09:00:00 +0300</pubDate>
+      <category>Про деньги</category>
+      <description>Как я развёл зарплату и карту по разным банкам, чего боялся и что показала выписка за семь месяцев.</description>
+    </item>
+  </channel>
+</rss>
