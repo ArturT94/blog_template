@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640" role="img" aria-label="Схема: стойка сервера, четыре сервиса и отказ диска на четвёртом месяце">
+<title>Схема: стойка сервера, четыре сервиса и отказ диска на четвёртом месяце</title>
+<rect width="1600" height="640" fill="#FFF3E7"/>
+<filter id="g37" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="37"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1600" height="640" filter="url(#g37)" opacity="0.04"/>
+<rect x="170" y="150" width="300" height="58" rx="12" fill="#1B1613" opacity=".1"/>
+<rect x="170" y="150" width="300" height="58" rx="12" fill="none" stroke="#1B1613" stroke-opacity=".28"/>
+<circle cx="206" cy="179" r="7" fill="#3FBF9A" opacity=".9"/>
+<rect x="234" y="174" width="150" height="9" rx="4" fill="#1B1613" opacity=".28"/>
+<rect x="170" y="228" width="300" height="58" rx="12" fill="#1B1613" opacity=".1"/>
+<rect x="170" y="228" width="300" height="58" rx="12" fill="none" stroke="#1B1613" stroke-opacity=".28"/>
+<circle cx="206" cy="257" r="7" fill="#3FBF9A" opacity=".9"/>
+<rect x="234" y="252" width="150" height="9" rx="4" fill="#1B1613" opacity=".28"/>
+<rect x="170" y="306" width="300" height="58" rx="12" fill="#1B1613" opacity=".1"/>
+<rect x="170" y="306" width="300" height="58" rx="12" fill="none" stroke="#1B1613" stroke-opacity=".28"/>
+<circle cx="206" cy="335" r="7" fill="#3FBF9A" opacity=".9"/>
+<rect x="234" y="330" width="150" height="9" rx="4" fill="#1B1613" opacity=".28"/>
+<rect x="170" y="384" width="300" height="58" rx="12" fill="#1B1613" opacity=".1"/>
+<rect x="170" y="384" width="300" height="58" rx="12" fill="none" stroke="#1B1613" stroke-opacity=".28"/>
+<circle cx="206" cy="413" r="7" fill="#3FBF9A" opacity=".9"/>
+<rect x="234" y="408" width="150" height="9" rx="4" fill="#1B1613" opacity=".28"/>
+<path d="M180 470H520" stroke="#1B1613" stroke-opacity=".14"/>
+<path d="M700 560.75H1470" stroke="#1B1613" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="720" y="440" width="90" height="120" rx="10" fill="#3FBF9A" opacity=".7"/>
+<rect x="720" y="440" width="90" height="120" rx="10" fill="none" stroke="#1B1613" stroke-opacity=".24"/>
+<rect x="870" y="440" width="90" height="120" rx="10" fill="#3FBF9A" opacity=".7"/>
+<rect x="870" y="440" width="90" height="120" rx="10" fill="none" stroke="#1B1613" stroke-opacity=".24"/>
+<rect x="1020" y="440" width="90" height="120" rx="10" fill="#3FBF9A" opacity=".7"/>
+<rect x="1020" y="440" width="90" height="120" rx="10" fill="none" stroke="#1B1613" stroke-opacity=".24"/>
+<rect x="1170" y="440" width="90" height="120" rx="10" fill="#3FBF9A" opacity=".12"/>
+<rect x="1170" y="440" width="90" height="120" rx="10" fill="none" stroke="#1B1613" stroke-opacity=".34"/>
+<rect x="1320" y="440" width="90" height="120" rx="10" fill="#3FBF9A" opacity=".12"/>
+<rect x="1320" y="440" width="90" height="120" rx="10" fill="none" stroke="#1B1613" stroke-opacity=".34"/>
+<rect x="1470" y="440" width="90" height="120" rx="10" fill="#3FBF9A" opacity=".12"/>
+<rect x="1470" y="440" width="90" height="120" rx="10" fill="none" stroke="#1B1613" stroke-opacity=".34"/>
+<path d="M1170 380l120 180M1290 380l-120 180" stroke="#3FBF9A" stroke-width="2.5"/>
+</svg>

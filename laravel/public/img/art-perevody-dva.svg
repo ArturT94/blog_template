@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="Схема: два счёта, соединённые линией перевода">
+<title>Схема: два счёта, соединённые линией перевода</title>
+<rect width="900" height="700" fill="#FFF3E7"/>
+<filter id="g22" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="22"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="900" height="700" filter="url(#g22)" opacity="0.05"/>
+<path d="M110 350H790" stroke="#1B1613" stroke-opacity=".14"/>
+<circle cx="290" cy="350" r="140" fill="#FF6B3D"/>
+<circle cx="290" cy="350" r="196" fill="none" stroke="#1B1613" stroke-opacity=".12"/>
+<circle cx="640" cy="350" r="196" fill="none" stroke="#1B1613" stroke-opacity=".34" stroke-width="1.5"/>
+<circle cx="640" cy="350" r="140" fill="none" stroke="#1B1613" stroke-opacity=".16"/>
+<path d="M436 350H486" stroke="#1B1613" stroke-opacity=".55" stroke-width="1.5"/>
+<path d="M486 350l-16-10v20z" fill="#1B1613" opacity=".55"/>
+<path d="M640 214 L652 350 L640 486 Z" fill="#FF6B3D"/>
+</svg>

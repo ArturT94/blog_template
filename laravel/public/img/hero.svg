@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-label="Иллюстрация: семь месяцев на нулевой линии">
+<title>Иллюстрация: семь месяцев на нулевой линии</title>
+<rect width="1600" height="700" fill="#FFF3E7"/>
+<filter id="g5" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="5"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1600" height="700" filter="url(#g5)" opacity="0.04"/>
+<circle cx="1160" cy="330" r="290" fill="#FF6B3D" opacity=".13"/>
+<circle cx="1160" cy="330" r="290" fill="none" stroke="#1B1613" stroke-opacity=".3" stroke-width="1.5"/>
+<circle cx="1160" cy="330" r="205" fill="none" stroke="#1B1613" stroke-opacity=".14"/>
+<rect x="150" y="474" width="4" height="26" fill="#1B1613" opacity=".42"/>
+<rect x="141" y="504" width="22" height="1.5" fill="#1B1613" opacity=".45"/>
+<rect x="268" y="465" width="4" height="35" fill="#1B1613" opacity=".42"/>
+<rect x="259" y="504" width="22" height="1.5" fill="#1B1613" opacity=".45"/>
+<rect x="386" y="456" width="4" height="44" fill="#1B1613" opacity=".42"/>
+<rect x="377" y="504" width="22" height="1.5" fill="#1B1613" opacity=".45"/>
+<rect x="504" y="447" width="4" height="53" fill="#1B1613" opacity=".42"/>
+<rect x="495" y="504" width="22" height="1.5" fill="#1B1613" opacity=".45"/>
+<rect x="622" y="438" width="4" height="62" fill="#1B1613" opacity=".42"/>
+<rect x="613" y="504" width="22" height="1.5" fill="#1B1613" opacity=".45"/>
+<rect x="740" y="429" width="4" height="71" fill="#1B1613" opacity=".42"/>
+<rect x="731" y="504" width="22" height="1.5" fill="#1B1613" opacity=".45"/>
+<rect x="858" y="420" width="4" height="80" fill="#FF6B3D" opacity="1"/>
+<rect x="849" y="504" width="22" height="1.5" fill="#1B1613" opacity=".45"/>
+<path d="M104 500.75H904" stroke="#1B1613" stroke-opacity=".65" stroke-width="1.5"/>
+</svg>

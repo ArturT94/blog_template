@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640" role="img" aria-label="Схема: четыре карты, три перечёркнуты тонкой линией">
+<title>Схема: четыре карты, три перечёркнуты тонкой линией</title>
+<rect width="1600" height="640" fill="#FFF3E7"/>
+<filter id="g27" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="27"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1600" height="640" filter="url(#g27)" opacity="0.04"/>
+<rect x="150" y="180" width="280" height="176" rx="20" fill="#FF6B3D" opacity=".9"/>
+<rect x="150" y="180" width="280" height="176" rx="20" fill="none" stroke="#1B1613" stroke-opacity=".4"/>
+<rect x="178" y="228" width="80" height="14" rx="7" fill="#1B1613" opacity=".5"/>
+<rect x="178" y="286" width="180" height="8" rx="4" fill="#1B1613" opacity=".34"/>
+<rect x="480" y="180" width="280" height="176" rx="20" fill="#FF6B3D" opacity=".1"/>
+<rect x="480" y="180" width="280" height="176" rx="20" fill="none" stroke="#1B1613" stroke-opacity=".22"/>
+<rect x="508" y="228" width="80" height="14" rx="7" fill="#1B1613" opacity=".22"/>
+<rect x="508" y="286" width="180" height="8" rx="4" fill="#1B1613" opacity=".14"/>
+<path d="M520 336L720 196" stroke="#1B1613" stroke-opacity=".5" stroke-width="1.5"/>
+<rect x="810" y="180" width="280" height="176" rx="20" fill="#FF6B3D" opacity=".1"/>
+<rect x="810" y="180" width="280" height="176" rx="20" fill="none" stroke="#1B1613" stroke-opacity=".22"/>
+<rect x="838" y="228" width="80" height="14" rx="7" fill="#1B1613" opacity=".22"/>
+<rect x="838" y="286" width="180" height="8" rx="4" fill="#1B1613" opacity=".14"/>
+<path d="M850 336L1050 196" stroke="#1B1613" stroke-opacity=".5" stroke-width="1.5"/>
+<rect x="1140" y="180" width="280" height="176" rx="20" fill="#FF6B3D" opacity=".1"/>
+<rect x="1140" y="180" width="280" height="176" rx="20" fill="none" stroke="#1B1613" stroke-opacity=".22"/>
+<rect x="1168" y="228" width="80" height="14" rx="7" fill="#1B1613" opacity=".22"/>
+<rect x="1168" y="286" width="180" height="8" rx="4" fill="#1B1613" opacity=".14"/>
+<path d="M1180 336L1380 196" stroke="#1B1613" stroke-opacity=".5" stroke-width="1.5"/>
+</svg>

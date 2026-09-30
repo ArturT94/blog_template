@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img" aria-label="Схема: разрыв между сметой и фактом растёт слева направо">
+<title>Схема: разрыв между сметой и фактом растёт слева направо</title>
+<rect width="900" height="700" fill="#FFF3E7"/>
+<filter id="g42" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="42"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="900" height="700" filter="url(#g42)" opacity="0.05"/>
+<path d="M120 470C420 470 560 300 780 150L780 470z" fill="#A98BFF" opacity=".12"/>
+<path d="M120 470H780" stroke="#1B1613" stroke-opacity=".4" stroke-width="1.5"/>
+<path d="M120 470C420 470 560 300 780 150" fill="none" stroke="#A98BFF" stroke-width="2.5"/>
+<path d="M200 470V470" stroke="#1B1613" stroke-opacity=".22" stroke-dasharray="4 6"/>
+<path d="M350 470V444" stroke="#1B1613" stroke-opacity=".22" stroke-dasharray="4 6"/>
+<path d="M500 470V352" stroke="#1B1613" stroke-opacity=".22" stroke-dasharray="4 6"/>
+<path d="M650 470V226" stroke="#1B1613" stroke-opacity=".22" stroke-dasharray="4 6"/>
+<path d="M120 130V630" stroke="#1B1613" stroke-opacity=".3"/>
+</svg>

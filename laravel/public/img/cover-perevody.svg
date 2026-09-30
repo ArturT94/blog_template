@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Иллюстрация: два счёта, соединённые линией">
+<title>Иллюстрация: два счёта, соединённые линией</title>
+<rect width="1200" height="800" fill="#FFF3E7"/>
+<filter id="g3" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="3"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1200" height="800" filter="url(#g3)" opacity="0.05"/>
+<path d="M0 400H1200" stroke="#1B1613" stroke-opacity=".16"/>
+<circle cx="360" cy="400" r="150" fill="#FF6B3D"/>
+<circle cx="840" cy="400" r="230" fill="none" stroke="#1B1613" stroke-opacity=".34" stroke-width="1.5"/>
+<circle cx="840" cy="400" r="150" fill="none" stroke="#1B1613" stroke-opacity=".16"/>
+<path d="M840 170 L 862 400 L 840 630 Z" fill="#FF6B3D" opacity=".9"/>
+<path d="M510 400H610" stroke="#1B1613" stroke-opacity=".5" stroke-width="1.5"/>
+<path d="M1070 400H1130" stroke="#1B1613" stroke-opacity=".28" stroke-width="1.5"/>
+<path d="M672 400H770" stroke="#FF6B3D" stroke-width="3"/>
+<path d="M756 388l14 12-14 12" fill="none" stroke="#FF6B3D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

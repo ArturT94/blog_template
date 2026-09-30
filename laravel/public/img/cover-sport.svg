@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Иллюстрация: год по неделям, с провалом посередине">
+<title>Иллюстрация: год по неделям, с провалом посередине</title>
+<rect width="1200" height="800" fill="#FFF3E7"/>
+<filter id="g43" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="43"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="1200" height="800" filter="url(#g43)" opacity="0.05"/>
+<rect x="144" y="310" width="16" height="250" rx="4" fill="#1B1613" opacity="0.59"/>
+<rect x="166" y="306" width="16" height="254" rx="4" fill="#1B1613" opacity="0.59"/>
+<rect x="190" y="302" width="16" height="258" rx="4" fill="#1B1613" opacity="0.60"/>
+<rect x="212" y="298" width="16" height="262" rx="4" fill="#1B1613" opacity="0.60"/>
+<rect x="236" y="294" width="16" height="266" rx="4" fill="#1B1613" opacity="0.61"/>
+<rect x="258" y="290" width="16" height="270" rx="4" fill="#1B1613" opacity="0.61"/>
+<rect x="282" y="286" width="16" height="274" rx="4" fill="#1B1613" opacity="0.61"/>
+<rect x="304" y="282" width="16" height="278" rx="4" fill="#1B1613" opacity="0.62"/>
+<rect x="328" y="278" width="16" height="282" rx="4" fill="#1B1613" opacity="0.62"/>
+<rect x="350" y="274" width="16" height="286" rx="4" fill="#1B1613" opacity="0.63"/>
+<rect x="374" y="270" width="16" height="290" rx="4" fill="#1B1613" opacity="0.63"/>
+<rect x="396" y="266" width="16" height="294" rx="4" fill="#1B1613" opacity="0.63"/>
+<rect x="420" y="260" width="16" height="300" rx="4" fill="#1B1613" opacity="0.64"/>
+<rect x="442" y="286" width="16" height="274" rx="4" fill="#1B1613" opacity="0.61"/>
+<rect x="466" y="312" width="16" height="248" rx="4" fill="#1B1613" opacity="0.59"/>
+<rect x="488" y="338" width="16" height="222" rx="4" fill="#1B1613" opacity="0.56"/>
+<rect x="512" y="364" width="16" height="196" rx="4" fill="#1B1613" opacity="0.54"/>
+<rect x="534" y="390" width="16" height="170" rx="4" fill="#1B1613" opacity="0.51"/>
+<rect x="558" y="416" width="16" height="144" rx="4" fill="#1B1613" opacity="0.48"/>
+<rect x="580" y="442" width="16" height="118" rx="4" fill="#1B1613" opacity="0.46"/>
+<rect x="604" y="468" width="16" height="92" rx="4" fill="#1B1613" opacity="0.43"/>
+<rect x="626" y="494" width="16" height="66" rx="4" fill="#1B1613" opacity="0.41"/>
+<rect x="650" y="516" width="16" height="44" rx="4" fill="#1B1613" opacity="0.38"/>
+<rect x="672" y="486" width="16" height="74" rx="4" fill="#1B1613" opacity="0.41"/>
+<rect x="696" y="456" width="16" height="104" rx="4" fill="#1B1613" opacity="0.44"/>
+<rect x="718" y="426" width="16" height="134" rx="4" fill="#1B1613" opacity="0.47"/>
+<rect x="742" y="396" width="16" height="164" rx="4" fill="#1B1613" opacity="0.50"/>
+<rect x="764" y="366" width="16" height="194" rx="4" fill="#1B1613" opacity="0.53"/>
+<rect x="788" y="336" width="16" height="224" rx="4" fill="#1B1613" opacity="0.56"/>
+<rect x="810" y="306" width="16" height="254" rx="4" fill="#1B1613" opacity="0.59"/>
+<rect x="834" y="272" width="16" height="288" rx="4" fill="#1B1613" opacity="0.63"/>
+<rect x="856" y="270" width="16" height="290" rx="4" fill="#1B1613" opacity="0.63"/>
+<rect x="880" y="268" width="16" height="292" rx="4" fill="#1B1613" opacity="0.63"/>
+<rect x="902" y="266" width="16" height="294" rx="4" fill="#1B1613" opacity="0.63"/>
+<rect x="926" y="264" width="16" height="296" rx="4" fill="#1B1613" opacity="0.64"/>
+<rect x="948" y="262" width="16" height="298" rx="4" fill="#1B1613" opacity="0.64"/>
+<rect x="972" y="260" width="16" height="300" rx="4" fill="#F5B33C" opacity=".95"/>
+<rect x="994" y="258" width="16" height="302" rx="4" fill="#F5B33C" opacity=".95"/>
+<rect x="1018" y="256" width="16" height="304" rx="4" fill="#F5B33C" opacity=".95"/>
+<rect x="1040" y="254" width="16" height="306" rx="4" fill="#F5B33C" opacity=".95"/>
+<path d="M103.5 560.75H1096.5" stroke="#1B1613" stroke-opacity=".65" stroke-width="1.5"/>
+<path d="M650 200V590" stroke="#1B1613" stroke-opacity=".14" stroke-dasharray="2 8"/>
+</svg>
